@@ -15,8 +15,8 @@ y realizar un sorteo aleatorio para determinar quién es el **amigo secreto**.
 
 ##  Tecnologías utilizadas
 
-- **HTML5** ![App Screenshot](assets/css.png)
-- **CSS3** 
+- **HTML5** 
+- **CSS3** <img src="assets/css.png" alt="CSS" width="20"/>
 - **JavaScript** 
 
  
