@@ -9,7 +9,7 @@ Permite a los usuarios ingresar nombres de amigos, mostrarlos en una lista y rea
 ##  Funcionalidades
 
 - **Agregar Amigos**: Al ingresar un nombre en el campo de texto  es añadido a la lista.
-- **Validación de entrada**: Si el campo está vacío, muestra un mensaje de error.
+- **Validación de entrada**: Si el campo de texto está vacío, muestra un mensaje de error.
 - **Lista de Amigos**: Muestra todos los amigos ingresados dinámicamente en la página.
 - **Sorteo aleatorio**: Selecciona un nombre al azar de la lista y lo muestra como "amigo secreto".
 
