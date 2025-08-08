@@ -37,5 +37,6 @@ Si quieres clonarlo y probarlo localmente:
 1. Clona el repositorio:
    ```bash
    git clone https://github.com/guille2506/Challenge_AmigoSecreto.git
+
 cd Challenge_AmigoSecreto
 
