@@ -2,8 +2,8 @@
 
 ![App Screenshot](assets/AluraLatam.jpeg)
 
-Esto es una aplicación web que permite a los usuarios ingresar nombres de amigos, mostrarlos en una lista 
-y realizar un sorteo aleatorio para determinar quién es el **amigo secreto**.
+Esto es una aplicación web desarrollada como parte del Challenge Amigo Secreto de Alura Latam.
+Permite a los usuarios ingresar nombres de amigos, mostrarlos en una lista y realizar un sorteo aleatorio para determinar quién es el amigo secreto.
 
 
 ##  Funcionalidades
