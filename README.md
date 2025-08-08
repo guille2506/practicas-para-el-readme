@@ -24,7 +24,7 @@ y realizar un sorteo aleatorio para determinar quién es el **amigo secreto**.
 ![App Screenshot](assets/demostracion.gif)
 
 
-## 🚀 Prueba la Deno!
+## 🚀 Prueba la Demo!
 [![Ver Demo](https://img.shields.io/badge/🌐%20Ver%20Demo-000?style=for-the-badge)](https://guille2506.github.io/Challenge_AmigoSecreto/)
 
 
@@ -33,9 +33,9 @@ y realizar un sorteo aleatorio para determinar quién es el **amigo secreto**.
 
 Si quieres clonarlo y probarlo localmente:
 
-```bash
-# Clonar el repositorio
-git clone https://github.com/guille2506/Challenge_AmigoSecreto.git
-
-# Abrir el archivo
+## 🛠 Instalación
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/guille2506/Challenge_AmigoSecreto.git
 cd Challenge_AmigoSecreto
+
