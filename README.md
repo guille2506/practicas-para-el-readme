@@ -28,15 +28,10 @@ y realizar un sorteo aleatorio para determinar quién es el **amigo secreto**.
 [![Ver Demo](https://img.shields.io/badge/🌐%20Ver%20Demo-000?style=for-the-badge)](https://guille2506.github.io/Challenge_AmigoSecreto/)
 
 
-
 ## 🛠 Instalación 
 
 Si quieres clonarlo y probarlo localmente:
 
-## 🛠 Instalación
 1. Clona el repositorio:
    ```bash
    git clone https://github.com/guille2506/Challenge_AmigoSecreto.git
-
-cd Challenge_AmigoSecreto
-
