@@ -32,6 +32,7 @@ y realizar un sorteo aleatorio para determinar quién es el **amigo secreto**.
 
 Si quieres clonarlo y probarlo localmente:
 
+ ```bash
 # Clonar el repositorio
 git clone https://github.com/guille2506/Challenge_AmigoSecreto.git
 
