@@ -15,12 +15,10 @@ y realizar un sorteo aleatorio para determinar quién es el **amigo secreto**.
 
 ##  Tecnologías utilizadas
 
-- **HTML5** → Estructura de la página.
-- **CSS3** → Estilos y diseño visual.
-- **JavaScript** → Lógica de la aplicación:
-  - Validar entrada de datos.
-  - Actualizar el DOM.
-  - Realizar el sorteo de manera aleatoria.
+- **HTML5** ![App Screenshot](assets/css.png)
+- **CSS3** 
+- **JavaScript** 
+
  
 ##  Vista Previa
 ![App Screenshot](assets/demostracion.gif)
@@ -33,3 +31,6 @@ Si quieres clonarlo y probarlo localmente:
 ```bash
 # Clonar el repositorio
 git clone https://github.com/guille2506/Challenge_AmigoSecreto.git
+
+# Abrir el archivo
+cd amigo-secreto
