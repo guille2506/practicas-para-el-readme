@@ -1,4 +1,3 @@
-# Challenge_AmigoSecreto
+# Challenge Del Amigo Secreto 🎁
 
-## Screenshots
 ![App Screenshot](assets/AluraLatam.jpeg)
