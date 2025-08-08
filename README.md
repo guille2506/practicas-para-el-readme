@@ -16,7 +16,7 @@ y realizar un sorteo aleatorio para determinar quién es el **amigo secreto**.
 ##  Tecnologías utilizadas
 
 - **HTML5** 
-- **CSS3** <img src="assets/css.png" alt="CSS" width="20"/>
+- **CSS3**
 - **JavaScript** 
 
  
@@ -33,4 +33,4 @@ Si quieres clonarlo y probarlo localmente:
 git clone https://github.com/guille2506/Challenge_AmigoSecreto.git
 
 # Abrir el archivo
-cd amigo-secreto
+cd Challenge_AmigoSecreto
