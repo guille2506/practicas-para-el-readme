@@ -8,9 +8,9 @@ y realizar un sorteo aleatorio para determinar quién es el **amigo secreto**.
 
 ##  Funcionalidades
 
-- **Agregar nombres**: Ingresar un nombre en el campo de texto y añadirlo a la lista.
+- **Agregar Amigos**: Al ingresar un nombre en el campo de texto  es añadido a la lista.
 - **Validación de entrada**: Si el campo está vacío, muestra un mensaje de error.
-- **Lista visible**: Muestra todos los amigos ingresados dinámicamente en la página.
+- **Lista de Amigos**: Muestra todos los amigos ingresados dinámicamente en la página.
 - **Sorteo aleatorio**: Selecciona un nombre al azar de la lista y lo muestra como "amigo secreto".
 
 ##  Tecnologías utilizadas
@@ -32,5 +32,6 @@ Si quieres clonarlo y probarlo localmente:
 # Clonar el repositorio
 git clone https://github.com/guille2506/Challenge_AmigoSecreto.git
 
+```bash
 # Abrir el archivo
 cd amigo-secreto
