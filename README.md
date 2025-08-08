@@ -24,7 +24,11 @@ y realizar un sorteo aleatorio para determinar quién es el **amigo secreto**.
 ![App Screenshot](assets/demostracion.gif)
 
 
-## 🛠 Instalación (opcional)
+##  Probar Demo!
+https://guille2506.github.io/Challenge_AmigoSecreto/
+
+
+## 🛠 Instalación 
 
 Si quieres clonarlo y probarlo localmente:
 
