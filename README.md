@@ -23,7 +23,7 @@ y realizar un sorteo aleatorio para determinar quién es el **amigo secreto**.
   - Realizar el sorteo de manera aleatoria.
  
 ##  Vista Previa
-![App Screenshot](https://Amigo-Secreto-Brave-2025-08-08-16-15-53)
+![App Screenshot](assets/demostracion.gif)
 
 
 ## 🛠 Instalación (opcional)
