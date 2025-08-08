@@ -14,6 +14,14 @@ y realizar un sorteo aleatorio para determinar quién es el **amigo secreto**.
 - **Sorteo aleatorio**: Selecciona un nombre al azar de la lista y lo muestra como "amigo secreto".
 
 ##  Tecnologías utilizadas
+## 📋 Tabla de Contenidos
+1. [Descripción](#-descripción)
+2. [Funcionalidades](#-funcionalidades)
+3. [Tecnologías utilizadas](#-tecnologías-utilizadas)
+4. [Vista previa](#-vista-previa)
+5. [Probar Demo](#-probar-demo)
+6. [Instalación](#-instalación)
+
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
