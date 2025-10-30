@@ -2,6 +2,8 @@
 Credenciales 
 user : admin
 contraseña : 1
+![App Screenshot](assets/index.php)
+
 
 
 esta es una guia , para ayudar a entender mejor el codigo y el de porque las cosas son asi 
