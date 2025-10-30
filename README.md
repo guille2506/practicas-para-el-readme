@@ -2,7 +2,7 @@
 Credenciales 
 user : admin
 contraseña : 1
-![App Screenshot](assets/index.php)
+![App Screenshot](assets/readme/index.php.gif)
 
 
 
