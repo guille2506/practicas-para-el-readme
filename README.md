@@ -7,13 +7,7 @@ contraseña : 1
 
 
 
-
-
-
-
-
 esta es una guia , para ayudar a entender mejor el codigo y el de porque las cosas son asi 
-
 
 No tocar nada en assets , no hay nada de poo , solo Funciones de la plantilla 
 ![App Screenshot](assets/images/readme/estructura.png)
