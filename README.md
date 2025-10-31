@@ -1,23 +1,34 @@
 # Porfavor leer antes de ver el codigo 
-Credenciales 
-user : admin
-contraseña : 1
+
 ![App Screenshot](assets/images/readme/ini.gif)
 
 
 
+Credenciales user : admin contraseña : 1
+
 esta es una guia , para ayudar a entender mejor el codigo y el de porque las cosas son asi 
 
+No tocar nada en assets , no hay nada de poo , solo Funciones de la plantilla 
+![App Screenshot](assets/images/readme/estructura.png)
 
-No tocar nada en assets , no hay nada de poo , solo Funciones de la plantilla (foto de estructura)
+como acabo de mencionar la estrucura que se ve en la imagen muestra un carpeta llamda api la cual contine toda nuestra api , con sus respectivos archivos 
+![App Screenshot](assets/images/readme/api2.png)
 
-como acabo de mencionar la estrucura que se ve en la imagen muestra un carpeta llamda api la cual contine toda nuestra api , con sus respectivos archivos (foto)
 
-tenemos tambin la carpeta config donde se encuetra el archivo de db (foto)
+tenemos tambin la carpeta config donde se encuetra el archivo de db 
+![App Screenshot](assets/images/readme/config.png)
 
-le sigue la carpeta models con sus repectivos archivos (foto)
 
-esta toda la logica en la carpeta js en su archivo index.js NO CONFUNDIR LA CARPETA JS QUE ESTA DENTRO DE LA CARPETA ASSETS !(foto)
+le sigue la carpeta models con sus repectivos archivos 
+![App Screenshot](assets/images/readme/models.png)
+
+
+
+
+
+esta toda la logica en la carpeta js en su archivo index.js NO CONFUNDIR LA CARPETA JS QUE ESTA DENTRO DE LA CARPETA ASSETS !
+![App Screenshot](assets/images/readme/js.png)
+
 
 
 una vez explicado todo procedo a explicar el codigo en el archivo AgregarUsuarios.php  desde la linea 546 empieza nuestro formulario con sus respectivos inputs, hemos decidido dejar en la linea 661 un script que creo que no molesta porque es una pequeña logica
