@@ -2,6 +2,8 @@
 
 ![App Screenshot](assets/images/readme/ini.gif)
 
+
+
 Credenciales user : admin contraseña : 1
 
 esta es una guia , para ayudar a entender mejor el codigo y el de porque las cosas son asi 
