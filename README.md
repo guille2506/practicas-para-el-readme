@@ -2,7 +2,7 @@
 Credenciales 
 user : admin
 contraseña : 1
-![App Screenshot](assets/images/readme/js.png)
+![App Screenshot](assets/images/readme/ini.gif)
 
 
 
