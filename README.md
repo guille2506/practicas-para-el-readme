@@ -1,84 +1,150 @@
-# Porfavor leer antes de ver el codigo 
+# 🏋️‍♂️ ClubSocios — Sistema de Gestión de Miembros
+
+> **Por favor leer antes de ver el código.**
 
 ![App Screenshot](assets/images/readme/ini.gif)
 
+---
 
+### 🔑 Credenciales de acceso
+**Usuario:** `admin`  
+**Contraseña:** `1`
 
-Credenciales user : admin contraseña : 1
+---
 
-esta es una guia , para ayudar a entender mejor el codigo y el de porque las cosas son asi 
+## 📘 Introducción
 
-No tocar nada en assets , no hay nada de poo , solo Funciones de la plantilla 
+Esta es una guía para entender mejor el código y el porqué de su estructura.
+
+> ⚠️ **Importante:**  
+> No tocar nada en la carpeta `assets/`, ya que no contiene POO.  
+> Solo incluye funciones y recursos de la plantilla.
+
+---
+
+## 🗂️ Estructura del proyecto
+
+### 📁 Estructura general
+
+La siguiente imagen muestra la estructura principal del proyecto, donde destaca la carpeta `api`, que contiene toda nuestra API con sus respectivos archivos.
+
 ![App Screenshot](assets/images/readme/estructura.png)
-
-como acabo de mencionar la estrucura que se ve en la imagen muestra un carpeta llamda api la cual contine toda nuestra api , con sus respectivos archivos 
 ![App Screenshot](assets/images/readme/api2.png)
 
+---
 
-tenemos tambin la carpeta config donde se encuetra el archivo de db 
+### ⚙️ Carpeta `config`
+
+Contiene el archivo de conexión a la base de datos (`db.php`).
+
 ![App Screenshot](assets/images/readme/config.png)
 
+---
 
-le sigue la carpeta models con sus repectivos archivos 
+### 🧩 Carpeta `models`
+
+Incluye los archivos de los modelos que representan las entidades del sistema.
+
 ![App Screenshot](assets/images/readme/models.png)
 
+---
 
+### 💻 Carpeta `js`
 
+Contiene **toda la lógica funcional** en el archivo `index.js`.
 
+> ⚠️ **No confundir con la carpeta `assets/js/`**, que pertenece únicamente a la plantilla.
 
-esta toda la logica en la carpeta js en su archivo index.js NO CONFUNDIR LA CARPETA JS QUE ESTA DENTRO DE LA CARPETA ASSETS !
 ![App Screenshot](assets/images/readme/js.png)
 
+---
 
+## 📄 Explicación de archivos principales
 
-una vez explicado todo procedo a explicar el codigo en el archivo AgregarUsuarios.php  desde la linea 546 empieza nuestro formulario con sus respectivos inputs, hemos decidido dejar en la linea 661 un script que creo que no molesta porque es una pequeña logica
-que usamos para cuando usamos el lector de codigo de barras pueda reconocer un dni y acomode automaticamente los campos de nombre , apellido etc . nuestro AgregarUsuarios.php termina en la linea 866 justo antes de terminar se encuentra el boton para poder enviar los campos previamente rellenados 
+### 🧍‍♂️ `AgregarUsuarios.php`
 
-un dato curioso si nosotros guardamos un dni 2 veces en la db se genera un error el cual no permite guardar , porque se supone que no deberia haber dni duplicados , esto sucede porque  se implementaron reglas en  la tabla miembros porque tiene  un índice único en dni, ![App Screenshot](assets/images/readme/agregar.gif)
+- Desde la **línea 546** comienza el formulario con sus respectivos inputs.  
+- En la **línea 661** se deja un pequeño script que permite que, al usar el lector de código de barras, se reconozca automáticamente un DNI y se completen los campos de nombre y apellido.
+- El archivo finaliza en la **línea 866**, justo antes del botón para enviar el formulario.
 
+📌 **Dato curioso:**  
+Si se intenta guardar un DNI duplicado, se genera un error debido al **índice único** en la tabla `miembros`.  
+Esto evita duplicar registros, ya que no debería haber dos miembros con el mismo DNI.
 
-su logica en la carpeta js/index.js  empieza en la linea 1 hasta la 78 
+![App Screenshot](assets/images/readme/agregar.gif)
 
+**Lógica asociada:**  
+En `js/index.js`, desde la **línea 1 hasta la 78**.
 
-listas-de-miembros.php
+---
 
-desde la linea 556 econtrara cuadros que diran  Total de miembros ,Miembros al dia,Deben cuota, No pago cuota no hacen nada en especial solo estan con un numero al alazar lo que realmente importa son las filas y columnas que se generan que empiza desde la linea 640 hasta la 697 (foto)
+### 📋 `listas-de-miembros.php`
 
+- Desde la **línea 556**, se encuentran los cuadros informativos:
+  - Total de miembros  
+  - Miembros al día  
+  - Deben cuota  
+  - No pagó cuota  
 
-su logica en la carpeta js/index.js  empieza en la linea 84 hasta la 168 se ocupo generacion de html con su respectivo estilo para aprovechar al maximo el uso de datos atraves de tablas 
+  Estos cuadros no hacen nada en especial, solo muestran valores ilustrativos.
 
-panel.php
-es donde se encuntra la verificaion de miembros si existen o no atraves de su input para ingresa dni o codigo de la tarjeta nfc
-si encuentra un miembro mostrara sus datos,foto , y un boton para renovar cuota que no hace nada en especial , se puede econtrar desde la linea 561 hasta la 611  SI revisa hay         desde la liena 607 hasta la 608 pero no hace tampoco nada especial tratamos de manteneros lo mas simple era una funcion nque si detectaba que si alguien ingresaba un dni o codigo que no era un miembro  este realiza un sonido de error                                <!-- Sonido de error -->
-                                        <audio id="audio-error" src="assets/sounds/error.mp3" preload="auto"></audio>
-                                        
-su logica en la carpeta js/index.js  empieza en la linea 172 hasta la 331 
+- Las filas y columnas reales que muestran los datos dinámicos se generan **desde la línea 640 hasta la 697**.
 
+**Lógica asociada:**  
+En `js/index.js`, desde la **línea 84 hasta la 168**.  
+Aquí se usa generación dinámica de HTML con estilos para mostrar los datos en tablas.
 
+---
 
-CUIDADO  si descargo el archivo y no guardo el nombre del archivo como proyecto-socios podria tener problemas con el js donde se hace el fetch porque la ruta es la relativa asi 
-[App Screenshot](assets/images/readme/proyectoS.png)
+### 🧾 `panel.php`
 
+Este archivo contiene la **verificación de miembros**, permitiendo ingresar un **DNI** o un **código NFC**.
 
+- Si el miembro existe, se muestran sus datos, foto y un botón para renovar la cuota (sin acción especial por ahora).  
+- Si el código o DNI no pertenecen a un miembro registrado, se reproduce un **sonido de error**:
 
+html
+<!-- Sonido de error -->
+<audio id="audio-error" src="assets/sounds/error.mp3" preload="auto"></audio>
 
-##  Tecnologías utilizadas
+El contenido de interés va desde la **línea 561 hasta la 611**.
+
+Entre las **líneas 607 y 608** hay una función que detecta si el DNI no pertenece a un miembro y **emite el sonido de error**.
+
+---
+
+### 🧠 Lógica asociada
+En `js/index.js`, desde la **línea 172 hasta la 331**.
+
+---
+
+## ⚠️ Consideraciones importantes
+
+Si descargas el archivo y **no lo guardas con el nombre exacto `proyecto-socios`**, podrías tener problemas con las rutas relativas del **JavaScript**.  
+Esto ocurre porque los métodos `fetch()` utilizan rutas relativas al directorio principal.
+
+---
+
+## 🧰 Tecnologías utilizadas
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![PHP](https://img.shields.io/badge/Php-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 
- 
+💡 **Proyecto desarrollado completamente en PHP puro (sin frameworks ni POO).**
 
+---
 
-## 🛠 Instalación 
+## ⚙️ Instalación
 
-Si quieres clonarlo y probarlo localmente:
+Si deseas clonar y probar el proyecto localmente:
 
- ```bash
+```bash
 # Clonar el repositorio
-git clone https://github.com/guille2506/Challenge_AmigoSecreto.git
+git clone https://github.com/guille2506/proyecto-socios
 
-# Abrir el archivo
-cd Challenge_AmigoSecreto
+# Ingresar al proyecto
+cd proyecto-socios
+
+
