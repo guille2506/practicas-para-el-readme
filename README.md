@@ -26,7 +26,9 @@ le sigue la carpeta models con sus repectivos archivos
 
 
 
-esta toda la logica en la carpeta js en su archivo index.js NO CONFUNDIR LA CARPETA JS QUE ESTA DENTRO DE LA CARPETA ASSETS !(foto)
+esta toda la logica en la carpeta js en su archivo index.js NO CONFUNDIR LA CARPETA JS QUE ESTA DENTRO DE LA CARPETA ASSETS !
+![App Screenshot](assets/images/readme/js.png)
+
 
 
 una vez explicado todo procedo a explicar el codigo en el archivo AgregarUsuarios.php  desde la linea 546 empieza nuestro formulario con sus respectivos inputs, hemos decidido dejar en la linea 661 un script que creo que no molesta porque es una pequeña logica
