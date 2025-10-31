@@ -11,7 +11,9 @@ esta es una guia , para ayudar a entender mejor el codigo y el de porque las cos
 No tocar nada en assets , no hay nada de poo , solo Funciones de la plantilla 
 ![App Screenshot](assets/images/readme/estructura.png)
 
-como acabo de mencionar la estrucura que se ve en la imagen muestra un carpeta llamda api la cual contine toda nuestra api , con sus respectivos archivos (foto)
+como acabo de mencionar la estrucura que se ve en la imagen muestra un carpeta llamda api la cual contine toda nuestra api , con sus respectivos archivos 
+![App Screenshot](assets/images/readme/api2.png)
+
 
 tenemos tambin la carpeta config donde se encuetra el archivo de db (foto)
 
