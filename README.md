@@ -34,7 +34,8 @@ esta toda la logica en la carpeta js en su archivo index.js NO CONFUNDIR LA CARP
 una vez explicado todo procedo a explicar el codigo en el archivo AgregarUsuarios.php  desde la linea 546 empieza nuestro formulario con sus respectivos inputs, hemos decidido dejar en la linea 661 un script que creo que no molesta porque es una pequeña logica
 que usamos para cuando usamos el lector de codigo de barras pueda reconocer un dni y acomode automaticamente los campos de nombre , apellido etc . nuestro AgregarUsuarios.php termina en la linea 866 justo antes de terminar se encuentra el boton para poder enviar los campos previamente rellenados 
 
-un dato curioso si nosotros guardamos un dni 2 veces en la db se genera un error el cual no permite guardar , porque se supone que no deberia haber dni duplicados , son reglas que se puso en  la tabla miembros porque tiene  un índice único en dni, (gif mostrando el problema)
+un dato curioso si nosotros guardamos un dni 2 veces en la db se genera un error el cual no permite guardar , porque se supone que no deberia haber dni duplicados , esto sucede porque  se implementaron reglas en  la tabla miembros porque tiene  un índice único en dni, ![App Screenshot](assets/images/readme/agregar.gif)
+
 
 su logica en la carpeta js/index.js  empieza en la linea 1 hasta la 78 
 
