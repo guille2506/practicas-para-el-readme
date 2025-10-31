@@ -9,7 +9,8 @@ contraseña : 1
 esta es una guia , para ayudar a entender mejor el codigo y el de porque las cosas son asi 
 
 
-No tocar nada en assets , no hay nada de poo , solo Funciones de la plantilla (foto de estructura)
+No tocar nada en assets , no hay nada de poo , solo Funciones de la plantilla 
+![App Screenshot](assets/images/readme/estructura.png)
 
 como acabo de mencionar la estrucura que se ve en la imagen muestra un carpeta llamda api la cual contine toda nuestra api , con sus respectivos archivos (foto)
 
