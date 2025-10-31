@@ -48,7 +48,7 @@ desde la linea 556 econtrara cuadros que diran  Total de miembros ,Miembros al d
 su logica en la carpeta js/index.js  empieza en la linea 84 hasta la 168 se ocupo generacion de html con su respectivo estilo para aprovechar al maximo el uso de datos atraves de tablas 
 
 panel.php
-es donde se encuntra la verificaion de miembros si existen o no atraves de su input para ingresa dni o codigo de la tarjeta ndf
+es donde se encuntra la verificaion de miembros si existen o no atraves de su input para ingresa dni o codigo de la tarjeta nfc
 si encuentra un miembro mostrara sus datos,foto , y un boton para renovar cuota que no hace nada en especial , se puede econtrar desde la linea 561 hasta la 611  SI revisa hay         desde la liena 607 hasta la 608 pero no hace tampoco nada especial tratamos de manteneros lo mas simple era una funcion nque si detectaba que si alguien ingresaba un dni o codigo que no era un miembro  este realiza un sonido de error                                <!-- Sonido de error -->
                                         <audio id="audio-error" src="assets/sounds/error.mp3" preload="auto"></audio>
                                         
@@ -56,21 +56,11 @@ su logica en la carpeta js/index.js  empieza en la linea 172 hasta la 331
 
 
 
+CUIDADO  si descargo el archivo y no guardo el nombre del archivo como proyecto-socios podria tener problemas con el js donde se hace el fetch porque la ruta es la relativa asi 
+[App Screenshot](assets/images/readme/proyectoS.png)
 
 
 
-![App Screenshot](assets/AluraLatam.jpeg)
-
-Esto es una aplicación web desarrollada como parte del Challenge Amigo Secreto de **Alura Latam**.
-Permite a los usuarios ingresar nombres de amigos, mostrarlos en una lista y realizar un sorteo aleatorio para determinar quién es el amigo secreto.
-
-<br>
-##  Funcionalidades
-
-- **Agregar Amigos**: Al ingresar un nombre en el campo de texto  es añadido a la lista.
-- **Validación de entrada**: Si el campo de texto está vacío, muestra un mensaje de error.
-- **Lista de Amigos**: Muestra todos los amigos ingresados dinámicamente en la página.
-- **Sorteo aleatorio**: Selecciona un nombre al azar de la lista y lo muestra como "amigo secreto".
 
 ##  Tecnologías utilizadas
 
