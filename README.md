@@ -15,9 +15,16 @@ como acabo de mencionar la estrucura que se ve en la imagen muestra un carpeta l
 ![App Screenshot](assets/images/readme/api2.png)
 
 
-tenemos tambin la carpeta config donde se encuetra el archivo de db (foto)
+tenemos tambin la carpeta config donde se encuetra el archivo de db 
+![App Screenshot](assets/images/readme/config.png)
 
-le sigue la carpeta models con sus repectivos archivos (foto)
+
+le sigue la carpeta models con sus repectivos archivos 
+![App Screenshot](assets/images/readme/models.png)
+
+
+
+
 
 esta toda la logica en la carpeta js en su archivo index.js NO CONFUNDIR LA CARPETA JS QUE ESTA DENTRO DE LA CARPETA ASSETS !(foto)
 
