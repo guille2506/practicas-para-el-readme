@@ -28,7 +28,6 @@ Esta es una guía para entender mejor el código y el porqué de su estructura.
 
 La siguiente imagen muestra la estructura principal del proyecto, donde destaca la carpeta `api`, que contiene toda nuestra API con sus respectivos archivos.
 
-![App Screenshot](assets/images/readme/estructura.png)
 ![App Screenshot](assets/images/readme/api2.png)
 
 ---
