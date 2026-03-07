@@ -11,7 +11,8 @@ Proyecto simple de conversión de monedas usando **Java**, **HttpClient** y **Gs
 
 Uso
 
-El programa mostrará un menú en consola para elegir la conversión de moneda y luego solicitará el monto a convertir.
+El programa mostrará un menú en consola para elegir la conversión de moneda y luego solicitará el monto a convertir.N
+No olvides usar tu apiKey
 
 Ejemplo:
 
