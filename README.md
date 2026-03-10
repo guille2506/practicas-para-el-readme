@@ -33,27 +33,28 @@ La API permite filtrar tópicos por:
 
 ---
 
-# 🏗️ Estructura del Proyecto
+## 🏗️ Estructura del Proyecto
 
-El proyecto está organizado en capas para facilitar el mantenimiento y la escalabilidad.
+El proyecto está organizado en capas para facilitar el mantenimiento, la escalabilidad y la separación de responsabilidades.
 
 forohub/
 ├── src/main/java/com/aluracursos/forohub/
-│   ├── controller/      # Endpoints de la API (Tópicos, Respuestas, Login, etc.)
-│   ├── domain/          # Entidades JPA, DTOs (Records) y Lógica de Negocio
-│   │   ├── topico/      # Modelado y reglas de Tópicos
-│   │   ├── respuesta/   # Modelado y reglas de Respuestas
-│   │   ├── usuario/     # Gestión de usuarios y perfiles
-│   │   ├── perfil/      # Entidad Perfil (Roles)
-│   │   └── curso/       # Catálogo de cursos
-│   ├── infra/           # Infraestructura y Configuraciones Transversales
-│   │   ├── security/    # Filtros JWT y Seguridad
-│   │   ├── springdoc/   # Configuración de Swagger (OpenAPI 3)
-│   │   └── errores/     # Manejo global de excepciones (TratamientoDeErrores)
-│   └── ForoHubApplication.java
+│   ├── controller/            # Endpoints de la API (Tópicos, Respuestas, Login, etc.)
+│   ├── domain/                # Entidades JPA, DTOs y lógica de negocio
+│   │   ├── topico/            # Modelado y reglas de Tópicos
+│   │   ├── respuesta/         # Modelado y reglas de Respuestas
+│   │   ├── usuario/           # Gestión de usuarios
+│   │   ├── perfil/            # Roles o perfiles de usuario
+│   │   └── curso/             # Catálogo de cursos
+│   ├── infra/                 # Infraestructura y configuraciones generales
+│   │   ├── security/          # Seguridad y filtros JWT
+│   │   ├── springdoc/         # Configuración de Swagger (OpenAPI)
+│   │   └── errores/           # Manejo global de excepciones
+│   └── ForoHubApplication.java # Clase principal de la aplicación
+│
 └── src/main/resources/
-    ├── db/migration/    # Scripts de Flyway (Versionamiento de DB)
-    └── application.properties
+    ├── db/migration/          # Migraciones de base de datos con Flyway
+    └── application.properties # Configuración de la aplicación
     
 ---
 
